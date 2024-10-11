@@ -1,0 +1,40 @@
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top:  6vw;
+}
+
+.body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    background: #9ef5e9;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 10px;
+
+    background: #026b5d;
+    border: 3px solid #000;
+    border-radius: 30px;
+}

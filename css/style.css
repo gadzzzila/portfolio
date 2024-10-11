@@ -1,0 +1,62 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+
+@import "footer.css";
+
+
+.work {
+}
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.work__item {
+}
+.work__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 500px;
+    height: auto;
+    min-height: 250px;
+    background: #026b5d;
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.work__prev {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.work__link img{
+    border-radius: 20px;
+    max-width: 400px;
+    border: 3px solid #000;
+}
+.work__comments {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+
+
+
+
+/* ===================================================================== */
+/* ============================= MEDIA ======================================== */
+/* ===================================================================== */
+
+@media (max-width: 1200px) {
+}
+
