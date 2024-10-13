@@ -13,9 +13,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-items: center;
 }
 .work__item {
+    
 }
 .work__link {
     display: flex;
@@ -23,14 +23,15 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    max-width: 500px;
+    color: #fff;
     width: 100%;
     height: auto;
     min-height: 250px;
-    background: #026b5d;
-    border: 3px solid #000;
-    border-radius: 30px;
+    background: var(--bg-card);
+    border: var(--border);
+    border-radius: var(--border-radius);
     padding: 20px;
+    transition: var(--transition);
 }
 
 .work__prev {
@@ -40,15 +41,19 @@
 }
 
 .work__link img{
-    border-radius: 20px;
-    max-width: 400px;
+    border-radius: var(--border-radius);
     width: 100%;
-    border: 3px solid #000;
+    border: var(--border);
 }
 .work__comments {
     font-weight: 500;
     font-size: 24px;
 }
+
+
+
+
+
 
 
 
